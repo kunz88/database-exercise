@@ -1,0 +1,28 @@
+1- $ mkdir database-exercise
+
+2- $ cd database-exercise/
+
+3-$ git init
+Initialized empty Git repository in C:/Users/Kunz/Desktop/Steve Jobs academy/Data Management/database-exercise/.git/
+
+4-$ touch exe.sql
+
+5-$ git add .
+
+6-$ git commit -m"initial commit added exe.sql"
+[master (root-commit) 488a285] initial commit added exe.sql
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 exe.sql
+
+ 7-$ git branch -M main
+
+ 8-$ git remote add origin https://github.com/kunz88/database-exercise.git
+
+ 9-$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 222.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kunz88/database-exercise.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
